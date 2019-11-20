@@ -1,0 +1,49 @@
+body,
+/*100% width and height to full fill whatever we see on the screen*/
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+  	background: url(header.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1{
+	font-size: 2rem;
+	color: #90969c;
+}
+
+.buffer{
+	height: 7rem;
+}
+
+hr{
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 70px; /*Make the horizontal line much shorter.*/
+}
+
+.btn-lg{
+	padding: 1rem 2rem;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px; /*To make the button edge more round.*/
+	text-transform: uppercase; /*Or text-uppercase in html*/
+}
+
+.btn-primary{ /*When hover, the btn becomes blue as bootstrap default.*/
+	background-color: #F05F44;
+	border-color: #F05F44;
+}
+
+.btn-primary:hover { /*Now when hover, the btn become orange.*/
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px; /*The btn increases the size when hover.*/
+}
+
